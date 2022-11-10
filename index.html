@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>JavaScript demo</title>
+	 
+	  <link href="style/style.css" rel="stylesheet" />
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+	  
+	  <!-- used to embed client side script/JS -->
+	  <script type="text/javascript">
+		
+		var college;
+		college = prompt("Enter your college"); //Ask user to enter college//
+		alert("Welcome to " + college); // print the results//
+
+		var num = prompt("Enter number !"); 
+
+		if(num % 3 === 0){
+			document.write("It's a multiple of 3!");
+			}
+		else{
+			document.write("It's not a multiple of 3!");
+			}
+		
+		var price, price1;
+		
+		price = prompt ("Enter the price");
+		if (price>= 100)
+			price1=price*0.1;
+		else if (price>= 80)
+			price1=price*0.07;
+		else if (price>= 50)
+			price1=price*0.05;
+		else if (price>= 30)
+			price1=price*0.03;	
+		else price=price1;
+		document.write("You got " + price1 + "$ discount." );
+
+	  </script>
+	  	  
+	</head>
+	<body>
+		<h1>Graded lab exercise</h1>
+		<p>add 3 examples of javascript</p>
+		<p>create a repo in github and add your project when finished</p>
+		<p>post just the link to the github repo in OneNote</p>
+		<p>you link should look like this https://github/username/repoName.git </p>
+	</body>
+</html>
